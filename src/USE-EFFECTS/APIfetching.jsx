@@ -27,7 +27,10 @@ export default function APIfetching() {
 
   return (
     <div>
-      
+      <h1> {apiData[0]?.title} </h1>
+      <p>{apiData[0]?.description} </p>
+      <p>{apiData[0]?.price} </p>
+      <p>{apiData[0]?.category} </p>
     </div>
   )
 }
