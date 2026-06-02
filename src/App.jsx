@@ -1,8 +1,8 @@
 import React from 'react'
-import APIfetching from './USE-EFFECTS/APIfetching'
+import NewsApi from './USE-EFFECTS/NewsApi'
 
 export default function App() {
   return (
-    <APIfetching/>
+    <NewsApi/>
   )
 }
