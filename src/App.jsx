@@ -1,8 +1,8 @@
 import React from 'react'
-import NewsApi from './USE-EFFECTS/NewsApi'
+import StoreAPI from './USE-EFFECTS/StoreAPI'
 
 export default function App() {
   return (
-    <NewsApi/>
+    <StoreAPI/>
   )
 }
